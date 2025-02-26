@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Ruparel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vishal Ruparel</h1>
+        <p>Senior Engineer | Product Development | Manufacturing | Renewable Energy</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Results-driven Senior Engineer with over 15 years of international experience in product development, manufacturing engineering, and design optimization...</p>
+    </section>
+
+    <section id="skills">
+        <h2>Key Skills</h2>
+        <ul>
+            <li>3D CAD Modeling (Solidworks, AutoCAD, UG NX, Pro/E)</li>
+            <li>Finite Element Analysis (Abaqus, LS Dyna, Nastran)</li>
+            <li>ERP & Data Analysis (Python, SQL, Power BI, Excel)</li>
+            <li>Project Management & Stakeholder Collaboration</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <article>
+            <h3>Project Manager - Citi Homes</h3>
+            <p>Managed high-quality residential and commercial construction projects...</p>
+        </article>
+        <article>
+            <h3>Senior Project Engineer - Allthread Industries</h3>
+            <p>Led product lifecycle management and team of engineers...</p>
+        </article>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>MBA (Applied Finance) - University of Newcastle</li>
+            <li>MSc Mechanical Engineering - Wayne State University</li>
+            <li>Bachelor of Engineering (Mechanical) - L.D. College of Engineering</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:vruparel41@gmail.com">vruparel41@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vruparel" target="_blank">linkedin.com/in/vruparel</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vishal Ruparel. All Rights Reserved.</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</body>
+</html>
